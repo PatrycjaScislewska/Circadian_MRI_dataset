@@ -10,3 +10,7 @@ Neuroimaging data quality was evaluated using a set of image quality metrics:
 
 
 All described data records are publicly available as OpenNeuro Dataset ds005479 (https://openneuro.org/datasets/ds005479/versions/1.0.3). The dataset includes a README file, dataset description, participant file with all psychometric data, and folders for neuroimaging data. Neuroimaging files are organized according to the Brain Imaging Data (BIDS) Structure, within folders for each participant (sub-XX) and specific subfolders scheme: anat, func, fmap. Subfolder anat contains raw, defaced anatomical T1-weighted MRI scan. Subfolder func contains raw BOLD data and an event file (.tsv file) listing onset times, durations, and types of stimuli. Subfolder fmap contains raw B0 fieldmaps acquired in two phase encoding directions (AP and PA). Additionally, each subfolder includes a .json file with technical details about the corresponding NIfTI files.
+
+If you use this dataset in your analysis, please cite this article:
+
+"Scislewska, P., Zareba, M.R., Lengier, J. et al. Circadian rhythmicity and reinforcement processing: a dataset of MRI, fMRI, and behavioral measurements. Sci Data 12, 823 (2025). https://doi.org/10.1038/s41597-025-05173-8 " 
